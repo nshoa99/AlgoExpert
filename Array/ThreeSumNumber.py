@@ -23,3 +23,4 @@ def threeNumberSum(array, targetSum):
 
 
 print(threeNumberSum([12, 3, 1, 2, -6, 5, -8, 6], 0))
+

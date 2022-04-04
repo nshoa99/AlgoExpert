@@ -26,3 +26,4 @@ def isValidSubsequence(array, sequence):
     return seqIdx == len(sequence)
 
 print(isValidSubsequence([1, 1, 1, 1, 1], [1, 1, 1]))
+
