@@ -12,8 +12,8 @@ def tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest):
             redShirtSpeeds.sort()
             blueShirtSpeeds.sort()
             result += max(redShirtSpeeds[i], blueShirtSpeeds[i])
-    
+
     return result
 
 
-print(tandemBicycle([5, 5, 3, 9, 2], [3, 6, 7, 2, 1], False))   
+print(tandemBicycle([5, 5, 3, 9, 2], [3, 6, 7, 2, 1], False))
