@@ -1,5 +1,5 @@
 # Leetcode: https://leetcode.com/problems/next-greater-element-i/
-#
+# Time complexity O(n) | Extra space complexity O(n)
 
 def nextGreaterElement(nums1, nums2):
     result = [-1] * len(nums1)
