@@ -9,10 +9,11 @@ def firstNonRepeatingCharacter(string):
             counting[c] += 1
         else:
             counting[c] = 1
-    
+
     for idx, c in enumerate(string):
         if counting[c] == 1:
             return idx
     return -1
+
 
 print(firstNonRepeatingCharacter("abcdcaf"))
