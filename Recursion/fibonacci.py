@@ -7,8 +7,7 @@ def fibo(n):
 
     return fibo(n-1) + fibo(n-2)
 
-# Dynamic programming
-
+# Dynamic programming, O(n)
 def fibo_dynamic(n):
     arr = [0] * n
     arr[0] = 1
